@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>diag3</title>
+</head>
+
+<body>
+
+    <script>
+
+        // write a program that input 2 numbers and print the bigger one
+        // input x (use prompt) 
+        // input y (use prompt)
+        // if x is bigger than y ? then print x
+        //                         else print y
+
+        a = parseInt(prompt('Please enter 1st number'))
+        b = parseInt(prompt('Please enter 2nd number'))
+        c = parseInt(prompt('Please enter 3rd number'))
+
+        document.write(a)
+        document.write(', ')
+        document.write(b)
+        document.write(', ')
+        document.write(c)
+        document.write('<hr>')
+
+        if (a > b) {
+            if (a > c) {
+                // a is the biggest
+                // if YES do this.
+                document.write(a)
+                document.write(' is the biggest ')
+            }
+            else {
+                // c is the biggest
+                document.write(c)
+                document.write(' is the biggest ')                
+            }
+        }
+        else {
+            if (b > c) {
+                // b is the biggest
+                document.write(b)
+                document.write(' is the biggest ')                
+            }
+            else {
+                // c is the biggest
+                document.write(c)
+                document.write(' is the biggest ')                
+            }
+        }
+        // after if ...
+        console.log('goodbye...');
+    </script>
+
+</body>
+
+</html>
